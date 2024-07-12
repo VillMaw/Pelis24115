@@ -4,7 +4,7 @@ const resultsPerPage = 20;
 let peliculas = []; // Almacena los resultados de búsqueda
 
 function buscarPelicula() {
-    const apiKey = '9d94a5948850daa4a43141576ba19b24'; // Reemplaza con tu clave de API de TMDB
+    const apiKey = ''; // Reemplaza con tu clave de API de TMDB
     const query = document.getElementById('searchInput').value;
 
     // Agregamos el parámetro 'language=es' para obtener resultados en español
