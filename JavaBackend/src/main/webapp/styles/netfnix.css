@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", Times, sans-serif;
+}
+
+body {
+  font-family: "Montserrat", Times, sans-serif;
+  background-color: rgb(12, 12, 12);
+  display: grid;
+}
+
+.hero h1 {
+  animation: slide-up 1s ease infinite alternate;
+  font-size: 35px;
+  padding: 15px;
+}
+
+.enlace {
+  text-decoration: none;
+  font-size: larger;
+  color: white;
+  font-weight: bold;
+}
+
+.enlace:hover {
+  color: #e50914;
+}
+
+.cont {
+  display: grid;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  margin: 5px;
+}
+
+.cont img {
+  width: 200px;
+}
+
+.logo {
+  display: grid;
+}
+
+header {
+  height: 500px;
+  background-color: #000000;
+  padding: 20px;
+  display: grid;
+  grid-template-rows: 1fr;
+  background-image: url(../assets/imagenes/netflix/portada-netflix.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: cover;
+}
+
+.menu {
+  list-style: none;
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.menu:hover {
+  transform: scale(1.06);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
+  transition: transform 0.3s ease;
+}
+
+.menu .li .a {
+  text-decoration: none;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #e50914;
+}
+
+.hero h1 {
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+.featured {
+  margin-bottom: 40px;
+}
+
+.category-list li {
+  margin-right: 20px;
+}
+
+.category-list:hover {
+  transform: scale(1.06);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
+  transition: transform 0.3s ease;
+}
+
+.category-list li a {
+  color: #fffbfb;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+  color: #888;
+}
+
+.movie,
+.series {
+  background-color: #141414;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.842);
+  transition: transform 0.3s ease;
+}
+
+.movie:hover,
+.series:hover,
+.movie h3:hover {
+  transform: scale(1.06);
+  color: red;
+}
+
+
+
+.hero h1 {
+  animation: slide-up 1s ease infinite alternate;
+  font-size: 35px;
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+.login {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.login:hover {
+  transform: scale(1.01);
+  transition: transform 0.3s ease;
+  width: 20%;
+}
+
+.login-container {
+  margin-right: 20px;
+  color: white;
+}
+
+.login-container h2,
+p {
+  margin: 10px;
+}
+
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.btn:hover {
+  transform: scale(1.06);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.842);
+  transition: transform 0.3s ease;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #e50914;
+
+}
+
+.hero {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.boton {
+  display: grid;
+  justify-content: center;
+  margin: 10px
+}
+
+.btn {
+  display: grid;
+  gap: 8px;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  padding: 10px 20px;
+  background-color: #e50914;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 100px;
+  transition: background-color 0.1s ease;
+  text-align: center;
+  margin: 10px;
+
+}
+
+.pelicu:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.842);
+  transition: transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff0000;
+}
+
+.movie {
+  display: grid;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.movie img {
+  width: 15vw;
+  height: 20vw;
+}
+
+.categories {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  color: white;
+  animation: slide-up 1s ease infinite alternate;
+
+}
+
+.categories h2,
+li {
+  margin: 10px;
+  padding: 10px;
+}
+
+.category-list {
+  display: inline-block;
+  padding: 0;
+}
+
+.category-list li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.category-list a:hover {
+  color: #dd073c;
+  transform: scale(10);
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  color: #fff;
+}
+
+.logo2 {
+  display: grid;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #000;
+}
+
+.logo2 video {
+  min-width: 100%;
+}
+
+.peliculas {
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.vid {
+  width: 100%;
+}
+
+.video {
+  width: 100%;
+}
+
+.destacados {
+  color: #fff;
+  margin-left: 20px;
+}
+
+.pelicu {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  align-items: center;
+}
+
+.busc {
+  display: grid;
+  gap: 8px;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  padding: 10px 20px;
+  background-color: #e50914;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  margin: 10px;
+}
+
+.bus {
+  border: 2px solid rgb(92, 90, 90);
+  background: #333;
+  border-radius: 25px;
+  color: #ffffff;
+  font-size: 1.2rem;
+  height: 40px;
+  margin: 20px 0px;
+  outline: none;
+  padding: 0px 20px;
+  width: 100%;
+}
+
+
+.searche {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  align-items: center;
+}
+
+#resultado {
+  display: grid;
+  color: rgb(255, 255, 255);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  overflow-y: auto;
+}
+
+.movie-card {
+  border: 1px solid #000000;
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  height: min-content;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.movie-card:hover {
+  transform: scale(1.06);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.842);
+  transition: transform 0.3s ease;
+}
+
+.movie-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.movie-description {
+  font-size: 14px;
+}
+
+.movie-poster {
+  max-width: 100%;
+  height: auto;
+}
+
+.movie-rating {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 14px;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  padding: 5px 2px;
+  background: darkorange;
+  border-radius: 50%;
+  color: #000;
+  font-weight: 600;
+  box-shadow: #000 0 0 5px;
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+
+.mostrar {
+  border-radius: 25px;
+  background-color: #383636;
+  color: #fff;
+  padding: 8px;
+  margin: 5px;
+  font-family: "Montserrat", Times, sans-serif;
+}
+
+.mostrar:hover {
+  background-color: #cc3636;
+  color: #fff;
+  padding: 8px;
+  margin: 5px;
+}
+
+
+.hidden {
+  display: none;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  #resultado {
+    display: grid;
+    color: rgb(255, 255, 255);
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    overflow-y: auto;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  nav {
+    margin-top: 10px;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  body {
+    font-size: 10px;
+
+  }
+
+  .hero h1 {
+    font-size: 20px;
+  }
+
+  .movie-rating {
+    top: 0px;
+    right: 1px;
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    padding: 3px 1px;
+    box-shadow: #000 0 0 3px;
+  }
+
+  .mostrar {
+    font-size: 10px;
+    border-radius: 10px;
+
+  }
+
+  .btn {
+    font-size: 20px;
+  }
+
+  .busc {
+    font-size: 16px;
+  }
+
+  .descripcion-pelicula {
+    font-size: 13px;
+  }
+
+  .peliculas {
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .movie {
+    justify-items: center;
+    margin: 20px;
+
+  }
+
+
+}
+
+/* aca temina lo de telefono */
