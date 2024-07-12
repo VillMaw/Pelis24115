@@ -1,0 +1,103 @@
+:root {
+    --netflix-red: #840b11;
+    --netflix-black: #141414;
+    --netflix-gray: #221F1F;
+    --netflix-white: #ffffff;
+    --netflix-dark-gray: #181818;
+}
+
+body {
+    /*background-color: var(--netflix-red);*/
+    color: var(--netflix-white);
+    background-image: url(../assets/imagenes/netflix/login.jpeg);
+    /* background-image: url(../assets/imagenes/2560x1440-black-wallpaper-nz8qn6mrl1x9xd12.jpg); */
+
+}
+
+header {
+    /* background-color: var(--netflix-red); */
+    padding: 20px 0;
+    background-image: url(../assets/imagenes/netflix/login.jpeg);
+}
+
+header h1 {
+    color: var(--netflix-white);
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+h1:hover {
+    color: #e50914;
+}
+
+/* table {
+    background-color: var(--netflix-gray);
+    color: var(--netflix-white);
+} */
+/* th {
+    background-color: #840b11 !important;
+} */
+
+/* table th,
+table td {
+    border-color: var(--netflix-dark-gray);
+} */
+
+.table-primary {
+    background-color: var(--netflix-red) !important;
+    color: var(--netflix-white);
+}
+
+.table-primary:hover {
+    color: #e50914;
+}
+
+button {
+    background-color: var(--netflix-red);
+    color: var(--netflix-white);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--netflix-black);
+}
+
+.table-primary {
+    background-color: var(--netflix-red) !important;
+    color: var(--netflix-white);
+}
+
+a {
+    text-decoration: none;
+}
+
+.table>:not(caption)>*>* {
+    padding: .5rem .5rem;
+    color: var(--bs-table-color-state, var(--bs-table-color-type, var(--bs-table-color)));
+    background-color: transparent !important;
+    border-bottom: none !important;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-bg-state, var(--bs-table-bg-type, var(--bs-table-accent-bg)));
+}
+
+.cont {
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    margin: 5px;
+}
+
+.cont img {
+    width: 200px;
+}
+
+.logo {
+    display: grid;
+}
